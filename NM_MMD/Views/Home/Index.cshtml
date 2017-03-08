@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Northern Michigan Medical Marijuana Dispensaries";
+}
+
+<div class="jumbotron">
+    <h1>Northern Michigan Medical Marijuana Dispensaries</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>Medical Marijuana in Michigan</h2>
+        <p>
+            The Michigan Medical Marijuana Program (MMMP) is a state registry program within the Special Programs 
+            Division in the Bureau of Professional Licensing at the Michigan Department of Licensing and Regulatory 
+            Affairs. The program administers the Michigan Medical Marihuana Act as approved by Michigan voters on 
+            November 4, 2008. The program implements the statutory tenets of this act in such a manner that protects 
+            the public and assures the confidentiality of its participants.
+            <!--Quoted from http://www.michigan.gov/lara/0,4601,7-154-72600_72603_51869---,00.html-->
+        </p>
+        
+    </div>
+    <div class="col-md-6">
+        <h2>How to Get Started</h2>
+        <p>
+            To view a list of dispensaries, click the button below! :)
+        </p>
+        <button type="button" onclick="location.href='@Url.Action("Index", "Dispensary")'" class="btn">View Dispensaries</button>
+    </div>
+</div>

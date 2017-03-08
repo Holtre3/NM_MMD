@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dispensaries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Dispensary>
+    <Id>1</Id>
+    <Name>Traverse City Provisioning Center</Name>
+    <Address>1238 S Garfield Ave e</Address>
+    <City>Traverse City</City>
+    <State>Michigan</State>
+    <Zip>49685</Zip>
+    <Phone>(231)943-2312</Phone>
+    <URL>http://www.traversecitypc.com/</URL>
+    <ImgPath>~/images/marijuanaImg1.jpg</ImgPath>
+  </Dispensary>
+  <Dispensary>
+    <Id>2</Id>
+    <Name>Interlochen Alternative Health</Name>
+    <Address>2074 M-137</Address>
+    <City>Interlochen</City>
+    <State>Michigan</State>
+    <Zip>49643</Zip>
+    <Phone>(231)276-3311</Phone>
+    <URL>https://weedmaps.com/dispensaries/interlochen-alternative-health</URL>
+    <ImgPath>~/images/marijuanaImg2.jpg</ImgPath>
+  </Dispensary>
+  <Dispensary>
+    <Id>3</Id>
+    <Name>Select Provisions</Name>
+    <Address>310 W Front St #101</Address>
+    <City>Traverse City</City>
+    <State>Michigan</State>
+    <Zip>49684</Zip>
+    <Phone>(231)218-7534</Phone>
+    <URL>https://weedmaps.com/dispensaries/select-provisions-traverse-city</URL>
+    <ImgPath>~/images/marijuanaImg3.jpg</ImgPath>
+  </Dispensary>
+  <Dispensary>
+    <Id>4</Id>
+    <Name>Great Lakes Help Hands LLC</Name>
+    <Address>4160 M-72</Address>
+    <City>Williamsburg</City>
+    <State>Michigan</State>
+    <Zip>49690</Zip>
+    <Phone>(231)421-5098</Phone>
+    <URL>http://www.glhelpinghands.com</URL>
+    <ImgPath>~/images/marijuanaImg4.jpg</ImgPath>
+  </Dispensary>
+  <Dispensary>
+    <Id>5</Id>
+    <Name>Botique &amp; Compassion Center</Name>
+    <Address>223 State St</Address>
+    <City>Traverse City</City>
+    <State>Michigan</State>
+    <Zip>49684</Zip>
+    <Phone>(231)421-9505</Phone>
+    <URL>http://www.glhelpinghands.com</URL>
+    <ImgPath>~/images/marijuanaImg5.jpg</ImgPath>
+  </Dispensary>
+  <Dispensary>
+    <Id>6</Id>
+    <Name>Vitamin J's Holtronic Chronic Center</Name>
+    <Address>1234 Marry Jane Road</Address>
+    <City>Grawn</City>
+    <State>Mich</State>
+    <Zip>49637</Zip>
+    <Phone>2314094094</Phone>
+    <URL>jasonholtrey.com</URL>
+    <ImgPath>~/images/marijuanaImg5.jpg</ImgPath>
+  </Dispensary>
+</Dispensaries>

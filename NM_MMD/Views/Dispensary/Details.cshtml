@@ -1,0 +1,83 @@
+﻿@model NM_MMD.Models.Dispensary
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Dispensary</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.State)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.State)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Zip)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Zip)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.URL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.URL)
+        </dd>
+        <dd>
+            Their Product: <img src="@Url.Content(Model.ImgPath)" alt="Picture Of Weed" />
+            <!--Image Sources
+                https://www.google.com/imgres?imgurl=http%3A%2F%2Ffadedfools.com%2Fmedical_marijuana%2Fpurple_urkle.jpg&imgrefurl=http%3A%2F%2Ffadedfools.com%2F2009%2F04%2F08%2Fpurple-urkle-medical-marijuana-nugs-grapes%2F&docid=Ta6N9EcWq8othM&tbnid=jlemDR2Aj7y7ZM%3A&vet=1&w=800&h=415&bih=710&biw=1536&q=marijuana%20nugs&ved=0ahUKEwjD4dmi5sDSAhUl8IMKHXMhCjQQMwg9KAEwAQ&iact=mrc&uact=8
+                https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.thcfinder.com%2Fuploads%2Ffiles%2Ffire-larry-og-buds-gw-thcfinder-0012221larryog.jpg&imgrefurl=http%3A%2F%2Fwww.thcfinder.com%2Fmarijuana-blog%2Fnugs%2F2013%2F08%2Flarry-og-nugs&docid=lD1s0Npy_QrelM&tbnid=jEX7xgAMzga4iM%3A&vet=1&w=612&h=612&bih=710&biw=1536&q=marijuana%20nugs&ved=0ahUKEwjD4dmi5sDSAhUl8IMKHXMhCjQQMwg_KAMwAw&iact=mrc&uact=8
+                https://www.google.com/imgres?imgurl=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2Foriginals%2F18%2F26%2F0a%2F18260aaff5441f61f1d65850e1232286.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fmjstrainsreview%2Fmarijuana-strain-reviews%2F&docid=4qiylFd_pNOikM&tbnid=yCnUyUvIMFdmfM%3A&vet=1&w=750&h=438&bih=710&biw=1536&q=marijuana%20nugs&ved=0ahUKEwjD4dmi5sDSAhUl8IMKHXMhCjQQMwhCKAYwBg&iact=mrc&uact=8
+                https://www.google.com/imgres?imgurl=http%3A%2F%2Fweedhomie.com%2Fwp-content%2Fuploads%2F2016%2F10%2Fstrawberry_cough.jpg&imgrefurl=http%3A%2F%2Fweedhomie.com%2Flifestyle%2Fdont-make-mistakes-smoking-weed%2F&docid=uAvEOgob0TumEM&tbnid=pZMe0zw7JEuiMM%3A&vet=1&w=500&h=397&bih=710&biw=1536&q=marijuana%20nugs&ved=0ahUKEwjD4dmi5sDSAhUl8IMKHXMhCjQQMwhJKA0wDQ&iact=mrc&uact=8
+                https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.thcfinder.com%2Fuploads%2Ffiles%2Ffire-larry-og-buds-gw-thcfinder-0012221larryog.jpg&imgrefurl=http%3A%2F%2Fwww.thcfinder.com%2Fmarijuana-blog%2Fnugs%2F2013%2F08%2Flarry-og-nugs&docid=lD1s0Npy_QrelM&tbnid=jEX7xgAMzga4iM%3A&vet=1&w=612&h=612&bih=710&biw=1536&q=marijuana%20nugs&ved=0ahUKEwjD4dmi5sDSAhUl8IMKHXMhCjQQMwg_KAMwAw&iact=mrc&uact=8
+                -->
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

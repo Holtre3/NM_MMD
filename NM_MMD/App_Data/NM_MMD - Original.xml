@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata">
+  <Dispensary>
+    <Id>1</Id>
+    <Name>Traverse City Provisioning Center</Name>
+    <Address>1238 S Garfield Ave e</Address>
+    <City>Traverse City</City>
+    <State>Michigan</State>
+    <Zip>49685</Zip>
+    <Phone>(231)943-2312</Phone>
+    <URL>http://www.traversecitypc.com/</URL>
+  </Dispensary>
+  <Dispensary>
+    <Id>2</Id>
+    <Name>Interlochen Alternative Health</Name>
+    <Address>2074 M-137</Address>
+    <City>Interlochen</City>
+    <State>Michigan</State>
+    <Zip>49643</Zip>
+    <Phone>(231)276-3311</Phone>
+    <URL>https://weedmaps.com/dispensaries/interlochen-alternative-health</URL>
+  </Dispensary>
+  <Dispensary>
+    <Id>3</Id>
+    <Name>Select Provisions</Name>
+    <Address>310 W Front St #101</Address>
+    <City>Traverse City</City>
+    <State>Michigan</State>
+    <Zip>49684</Zip>
+    <Phone>(231)218-7534</Phone>
+    <URL>https://weedmaps.com/dispensaries/select-provisions-traverse-city</URL>
+  </Dispensary>
+  <Dispensary>
+    <Id>4</Id>
+    <Name>Great Lakes Help Hands LLC</Name>
+    <Address>4160 M-72</Address>
+    <City>Williamsburg</City>
+    <State>Michigan</State>
+    <Zip>49690</Zip>
+    <Phone>(231)421-5098</Phone>
+    <URL>http://www.glhelpinghands.com</URL>
+  </Dispensary>
+  <Dispensary>
+    <Id>4</Id>
+    <Name>Great Lakes Help Hands LLC</Name>
+    <Address>4160 M-72</Address>
+    <City>Williamsburg</City>
+    <State>Michigan</State>
+    <Zip>49690</Zip>
+    <Phone>(231)421-5098</Phone>
+    <URL>http://www.glhelpinghands.com</URL>
+  </Dispensary>
+  <Dispensary>
+    <Id>5</Id>
+    <Name>Botique &#38; Compassion Center</Name>
+    <Address>223 State St</Address>
+    <City>Traverse City</City>
+    <State>Michigan</State>
+    <Zip>49684</Zip>
+    <Phone>(231)421-9505</Phone>
+    <URL>http://www.glhelpinghands.com</URL>
+  </Dispensary>
+</dataroot>
